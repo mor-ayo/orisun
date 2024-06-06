@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.register-box {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.register-box h1 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #e13399;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #d12a82;
+}
+
+.login-prompt {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login-prompt p {
+    color: #333;
+}
+
+.login-prompt a {
+    color: #e13399;
+    text-decoration: none;
+}
+
+.login-prompt a:hover {
+    text-decoration: underline;
+}
+
+
+.forgot-prompt {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 10rem;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.forgot-prompt p {
+    color: #333;
+}
+
+.forgot-prompt a {
+    color: #e13399;
+    text-decoration: none;
+}
+
+.forgot-prompt a:hover {
+    text-decoration: underline;
+}
